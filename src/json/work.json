@@ -1,0 +1,45 @@
+{
+  "companies": [
+    {
+      "name": "AKQA",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https…02ddb6b7880a74d6a15b8e9ff19-540x442.png/webp/540/"
+    },
+    {
+      "name": "Kin + Carta",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https…0de41f4a955f1511c9c2ee34b9a-540x442.png/webp/540/"
+    },
+    {
+      "name": "Webstacks",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https…11ffaa654e49350fec94210d6-1080x884.png/webp/1080/"
+    },
+
+    {
+      "name": "Critical Mass",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https…3f4ed52c9f8c3036e77d7f2f6-1080x884.jpg/webp/1080/"
+    },
+    {
+      "name": "SDG",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fo0o2tn5x%2Fproduction%2F041250ddfb26c5e77601bab3ea3117e8b5e4d602-540x442.png/webp/540/"
+    },
+    {
+      "name": "Last Rev",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https…27f73570fe19ef7cf2063aebdbd-540x442.png/webp/540/"
+    },
+    {
+      "name": "Assemble Inc",
+      "type": "Web Development",
+      "Src": "https://netlify-eleventy-api-img.netlify.app/https…ff5fd53bdf980527cc9d0661a37-540x442.png/webp/540/"
+    },
+    {
+      "name": "Orium",
+      "type": "Web Development",
+      "src": "https://netlify-eleventy-api-img.netlify.app/https…92776ebe44b7e2bdddf91e07-1190x1196.png/webp/1190/"
+    }
+  ]
+}

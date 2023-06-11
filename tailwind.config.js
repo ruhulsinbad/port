@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
         baloo: ["Baloo Da 2", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
     },
   },
