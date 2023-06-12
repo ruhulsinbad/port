@@ -2,13 +2,13 @@ import React from "react";
 
 const Message = () => {
   return (
-    <div className=" relative flex justify-center items-center flex-col h-screen px-48  ">
-      <div className=" relative flex justify-center items-center flex-col w-full border-8 border-gray-100 py-10">
-        <p className=" absolute -rotate-90 uppercase tracking-[.75em] bottom-[49%] -left-[20%] text-2xl font-ubuntu text-white  ">
+    <div className=" page relative flex justify-center items-center flex-col h-screen px-4 lg:px-48  ">
+      <div className=" relative flex justify-center items-center flex-col lg:w-full border-8 border-gray-100 py-10">
+        <p className=" hidden lg:inline  absolute -rotate-90 uppercase tracking-[.75em] bottom-[49%] -left-[20%] text-2xl font-ubuntu text-white  ">
           SEND ME A MESSAGE
         </p>
 
-        <p className=" absolute rotate-90 uppercase tracking-[.75em] top-[49%] -right-[20%] text-2xl font-ubuntu text-white  ">
+        <p className=" hidden lg:inline absolute rotate-90 uppercase tracking-[.75em] top-[49%] -right-[20%] text-2xl font-ubuntu text-white  ">
           SEND ME A MESSAGE
         </p>
         {/* <h1 className=" font-ubuntu text-white text-4xl">
@@ -20,7 +20,7 @@ const Message = () => {
           ahead.
         </p>
 
-        <form className=" mt-8  w-[40%] ">
+        <form className=" mt-8 w-[75%] lg:w-[40%] ">
           <label className=" text-white " for="name">
             {" "}
             Full Name:{" "}
