@@ -6,7 +6,7 @@ import MyWork from "./components/MyWork";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <HeroSection />
       <MyWork />
       <Message />

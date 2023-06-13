@@ -17,12 +17,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.container {
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-
-.page {
-  scroll-snap-align: start;
-}

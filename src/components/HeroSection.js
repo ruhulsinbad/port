@@ -59,7 +59,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <ul class="background">
+      <ul class="background w-screen ">
         <li></li>
         <li></li>
         <li></li>

@@ -4,8 +4,8 @@ import WorkCard from "./WorkCard";
 import work from "../json/work.json";
 const MyWork = () => {
   return (
-    <div className=" page lg:px-40 lg:grid lg:grid-cols-12 lg:w-screen lg:h-screen lg:items-center">
-      <div className=" flex flex-col justify-center items-center w-screen h-screen lg:inline lg:w-auto lg:h-auto lg:place-items-start col-span-12 lg:col-span-4 px-6">
+    <div className="lg:px-40 lg:grid lg:grid-cols-12 lg:h-screen lg:items-center">
+      <div className=" place-items-start col-span-12 lg:col-span-4 px-6">
         <h1 className=" text-6xl font-ubuntu uppercase text-yellow-500">
           My Work
         </h1>
@@ -18,7 +18,7 @@ const MyWork = () => {
           <span className="relative font-lato z-10">Learn more</span>
         </button>
       </div>
-      <div className=" flex flex-col lg:flex-row lg:h-auto lg:w-auto  lg:flex-wrap lg:justify-between lg:items-center lg:gap-8 col-span-12 lg:col-span-8">
+      <div className=" flex flex-col gap-2 lg:flex-row lg:flex-wrap lg:justify-between lg:items-center lg:gap-8 col-span-12 lg:col-span-8">
         {work.companies.map((company) => {
           return (
             <WorkCard
