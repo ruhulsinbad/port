@@ -5,11 +5,11 @@ import work from "../json/work.json";
 const MyWork = () => {
   return (
     <div className="lg:px-40 lg:grid lg:grid-cols-12 lg:h-screen lg:items-center">
-      <div className=" place-items-start col-span-12 lg:col-span-4 px-6">
+      <div className="h-screen lg:h-auto flex flex-col justify-center items-center col-span-12 lg:col-span-4 px-6">
         <h1 className=" text-6xl font-ubuntu uppercase text-yellow-500">
           My Work
         </h1>
-        <p className=" text-xl text-white font-ubuntu mt-12">
+        <p className=" text-xl text-justify text-white font-ubuntu mt-12">
           Check it out some of my projects that I delivered to my clients. I
           appeciate your valuable times.
         </p>
