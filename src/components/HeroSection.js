@@ -9,9 +9,9 @@ import sinbad from "../image/sinbad.jpg";
 
 const HeroSection = () => {
   return (
-    <div className=" page">
+    <div className=" snap-start">
       <div className=" grid grid-cols-12">
-        <div className=" flex justify-center items-center col-span-12 lg:col-span-4 ">
+        <div className=" hidden lg:flex lg:justify-center lg:items-center lg:col-span-4 ">
           <ul className=" font-ubuntu text-xl text-white">
             <li> Profile </li>
             <li> Experience </li>

@@ -6,7 +6,7 @@ import MyWork from "./components/MyWork";
 
 function App() {
   return (
-    <div>
+    <div className=" snap-y snap-mandatory overflow-y-scroll h-[100vh]">
       <HeroSection />
       <MyWork />
       <Message />

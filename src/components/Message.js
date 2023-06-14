@@ -2,7 +2,7 @@ import React from "react";
 
 const Message = () => {
   return (
-    <div className="lg:h-screen px-4 lg:px-48  ">
+    <div className=" snap-start flex justify-center items-center lg:h-screen px-4 lg:px-48  ">
       <div className=" relative flex justify-center items-center flex-col lg:w-full border-8 border-gray-100 py-10">
         <p className=" hidden lg:inline  absolute -rotate-90 uppercase tracking-[.75em] bottom-[49%] -left-[20%] text-2xl font-ubuntu text-white  ">
           SEND ME A MESSAGE
